@@ -1,10 +1,31 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #f6f1e9;
   margin: 0;
   padding: 0;
 }
 
 h1 {
   color: #333;
+}
+
+.countriesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.countriesList li {
+  border: solid gray;
+  border-width: 1px;
+  background-color: white;
+  padding-left: 5px;
+  width: 300px;
+  height: 300px;
+}
+
+img {
+  width: 100px;
 }
